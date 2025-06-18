@@ -25,8 +25,8 @@ Linux_Environment/
 From the root folder:
 
 ```bash
-cp .env.template .env
-cp Monitoring/.env.template Monitoring/.env
+cp env.template .env
+cp Monitoring/env.template Monitoring/.env
 ```
 Edit them and fill in the required environment variables.
 

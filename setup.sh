@@ -23,6 +23,7 @@ echo "Finished setting Nginx"
 
 echo "Setting monitoring email alert"
 sudo mkdir -p /etc/ssmtp
+sudo apt install ssmtp -y
 envsubst < Monitoring/ssmtp.conf.template > /etc/ssmtp/ssmtp.conf
 echo "Finished setting monitoring email alert"
 
